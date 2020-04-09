@@ -146,6 +146,14 @@ sshGitServers: {}
 
 goGetWorkers: 3
 
+rbac:
+  # Create RBAC resources
+  create: false
+  # Create PodSecurityPolicy
+  psp: 
+    create: false
+    annotations: {}
+
 nodeSelector: {}
 
 tolerations: []
